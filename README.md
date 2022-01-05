@@ -5,7 +5,7 @@
 - order your cart and see order history.
 ---
 
-#### To install packages go in both /client and /server:
+#### To install packages go in both `/client` and `/server`:
 ```
 npm install
 ```
@@ -15,7 +15,7 @@ npm install
 MONGODB_URI='<YOUR_MONGODB_CONFIG>'
 ```
 
-#### Last thing is to rename baseUrl variable in /client/src/api/index.ts file to:
+#### Last thing is to rename baseUrl variable in `/client/src/api/index.ts` file to:
 ```js
 const API = axios.create({ baseURL: 'https://localhost:5000' });
 ```
