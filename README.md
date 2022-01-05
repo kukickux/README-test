@@ -5,7 +5,7 @@
 - order your cart and see order history.
 ---
 
-#### To install packages go in both `/client` and `/server`:
+#### To install packages go in both `/client` and `/server` and run:
 ```
 npm install
 ```
@@ -20,7 +20,7 @@ MONGODB_URI='<YOUR_MONGODB_CONFIG>'
 const API = axios.create({ baseURL: 'https://localhost:5000' });
 ```
 
-#### To run both applications on localhost:
+#### To start both applications on localhost run:
 ```
 npm start
 ```
